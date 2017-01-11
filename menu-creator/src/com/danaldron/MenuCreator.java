@@ -1,3 +1,4 @@
+package com.danaldron;
 
 public class MenuCreator {
 
