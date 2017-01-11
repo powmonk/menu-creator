@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="com.mycompany">
+<hibernate-mapping package="com.danaldron">
     <class name="Recipes" table="RECIPES">
         <id name="id" column="RECIPE_ID">
             <generator class="increment"/>

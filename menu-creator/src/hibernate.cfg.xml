@@ -9,7 +9,9 @@
     <property name="connection.url">jdbc:mysql://178.62.66.52:3306/recipe_db</property>
     <property name="connection.username">fatty</property>
     <property name="connection.password">thisisnotthepasswordyouarelookingfor</property>
-	<property name="show_sql">true</property>      
+	<property name="show_sql">true</property>
+	<mapping resource="com/danaldron/Recipes.hbm.xml"/>
+	<mapping resource="com/danaldron/Ingredients.hbm.xml"/>      
   </session-factory>
   
 </hibernate-configuration>
